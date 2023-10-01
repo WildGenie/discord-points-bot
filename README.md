@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 # Kodluyoruz Discord Puan Botu
+[![Qodana](https://github.com/WildGenie/discord-points-bot/actions/workflows/qodana_code_quality.yml/badge.svg?branch=cdci%2Fqodana)](https://github.com/WildGenie/discord-points-bot/actions/workflows/qodana_code_quality.yml)
 
 ![banner](docs/images/BANNER.png)
 

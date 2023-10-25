@@ -1,5 +1,5 @@
-import { infoUserPointEmbed } from 'src/components/embeds/info/infoUserPointEmbed';
 import { userRankEmbed } from 'src/components/embeds/info/userRankEmbed';
+import { pointInfoHandler } from 'src/feature/pointInfo/pointInfo';
 
 import { ButtonCustomId } from '@discord-point-bot/constants';
 
@@ -11,7 +11,7 @@ type SetupRoutes = {
 };
 
 export const setupRoutes: SetupRoutes[] = [
-  { customId: 'point', execute: infoUserPointEmbed },
+  { customId: 'point', execute: pointInfoHandler },
   { customId: 'user', execute: userRankEmbed },
   { customId: 'global_point', execute: GlobalPoints },
 ];

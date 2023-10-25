@@ -38,7 +38,7 @@
     "command": {
       "builder": {
         "description": "Provides information about your current points status.",
-        "name": "point"
+        "name": "point-info"
       }
     }
   },

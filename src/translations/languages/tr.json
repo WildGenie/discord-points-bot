@@ -26,7 +26,8 @@
     "setting": "Ayarlar",
     "setup": "Kurulum",
     "edit": "Düzenle",
-    "continue": "Devam Et"
+    "continue": "Devam Et",
+    "cancel": "İptal"
   },
   "pointInfos": {
     "title": "Nasıl Puan Kazanırım?",
@@ -53,7 +54,7 @@
     ],
     "command": {
       "builder": {
-        "name": "puan",
+        "name": "puan-bilgi",
         "description": "Mevcut puan durumunuz hakkında bilgi verir."
       }
     }
